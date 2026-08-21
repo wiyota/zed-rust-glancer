@@ -1,0 +1,11 @@
+id = "rust-glancer"
+name = "rust-glancer"
+description = "rust-glancer support: a lightweight Rust LSP that trades incompleteness for performance and low memory usage."
+version = "0.0.1"
+schema_version = 1
+authors = ["Yota Inomoto <yota@ino.family>"]
+repository = "https://github.com/wiyota/zed-rust-glancer"
+
+[language_servers.rust-glancer]
+name = "rust-glancer"
+languages = ["Rust"]

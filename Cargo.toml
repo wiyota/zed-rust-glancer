@@ -1,0 +1,17 @@
+[package]
+name = "zed-rust-glancer"
+version = "0.0.1"
+edition = "2024"
+publish = false
+license = "Apache-2.0 or MIT"
+authors = ["Yota Inomoto <yota@perforate.org>"]
+description = "Zed extension adding rust-glancer language server support"
+keywords = ["zed", "rust", "rust-glancer"]
+categories = ["development-tools"]
+
+[lib]
+path = "src/rust_glancer.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.7.0"

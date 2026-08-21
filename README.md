@@ -99,6 +99,12 @@ sections VS Code exposes as its settings). For example, to enable diagnostics
 }
 ```
 
+Other accepted keys: `diagnostics.command` (default `check`),
+`diagnostics.cargoArguments` (default `["--workspace"]`),
+`diagnostics.extraEnv`, `cargo.target`, `cargo.allFeatures`,
+`cargo.noDefaultFeatures`, and `sysroot.discovery`
+(`"auto" | "disabled"`).
+
 ## Development
 
 To develop this extension, see the [Developing Extensions](https://zed.dev/docs/extensions/developing-extensions) section of the Zed docs.

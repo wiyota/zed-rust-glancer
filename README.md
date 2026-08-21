@@ -1,6 +1,6 @@
 # zed-rust-glancer
 
-[rust-glancer](https://github.com/rust-glancer/rust-glancer) support for
+[rust-glancer](https://rust-glancer.github.io/) support for
 [Zed](https://zed.dev) — a lightweight Rust language server that trades
 incompleteness for performance and low memory usage.
 

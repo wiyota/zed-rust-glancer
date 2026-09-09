@@ -1,5 +1,17 @@
 # zed-rust-glancer
 
+> [!NOTE]
+> **This repository is archived.** An official Zed extension for rust-glancer
+> is now maintained in the upstream repository:
+> [rust-glancer/rust-glancer](https://github.com/rust-glancer/rust-glancer).
+>
+> The official extension is also available from the Zed extension store
+> (`zed: extensions` in the command palette, then search for
+> "rust-glancer").
+>
+> Please use the official extension instead; this repository
+> receives no further updates.
+
 [rust-glancer](https://rust-glancer.github.io/) support for
 [Zed](https://zed.dev) — a lightweight Rust language server that trades
 incompleteness for performance and low memory usage.
